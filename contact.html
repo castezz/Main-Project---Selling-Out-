@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayStation®5 30 Years Anniversary Edition</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header with Main Image and Introduction -->
+    <header>
+      <h1>PlayStation®5 30 Years Anniversary Edition</h1>
+      <p>
+        Celebrate the anniversary of the original PlayStation® console with a
+        limited-edition range of PS5 consoles and accessories, featuring
+        throwback design elements and a legacy color scheme.
+      </p>
+      <a
+        href="index.html"
+        class="active"
+        onmouseover="onHover();"
+        onmouseout="offHover();"
+      >
+        <img src="img/ps5.png" id="logo" alt="PS Logo" srcset="" />
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="hideShowMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <nav id="my-menu" class="roboto-regular">
+        <a class="no-underscore" href="index.html">Home</a>
+        <a class="no-underscore" href="about.html">About</a>
+        <a class="no-underscore" href="games.html">Games</a>
+        <a class="no-underscore" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div id="container">
+      <!-- Center Content Area -->
+      <div id="main-content">
+        <!-- Introduction Section -->
+        <section class="content-section" id="Introduction">
+          <div class="footer-contact-form">
+            <h3>Contact</h3>
+            <form action="#" method="post">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                required
+              ></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer with Contact -->
+    <footer id="footer">
+      <div class="footer-container">
+        <!-- Logo and Company Info -->
+        <div class="footer-logo-info">
+          <img
+            src="https://cdn.freebiesupply.com/logos/large/2x/sony-2-logo-png-transparent.png"
+            alt="Sony Logo"
+            class="footer-logo"
+          />
+          <p class="company-info">
+            <strong>Sony Canada</strong><br />
+            120 Bloor Street East<br />
+            Toronto, ON - Canada<br />
+            Phone: +1 (123) 456-7689<br />
+            Email: contact@sony.com
+          </p>
+        </div>
+
+        <!-- Contact Form -->
+      </div>
+
+      <h5>
+        Group Members: Beatriz Hespanhol, Renan Luna, Andres Castellanos, Mishel
+        Mejía
+      </h5>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
